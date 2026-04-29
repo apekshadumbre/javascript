@@ -1,0 +1,58 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+
+    <p id="displayname"></p>
+    <p id="displaymail"></p>
+    <p id="displaypassword"></p>
+    <p id="displayage"></p>
+    <p id="displayphone"></p>
+    <p id="displaydate"></p>
+    <p id="displaygender"></p>
+    <p id="displaysubjects"></p>
+
+    
+        
+        <script>
+        //display data to user which are store in localstorage we use getitem method
+        document.getElementById("displayname").innerHTML=
+       "Name:"+localStorage.getItem("fname");
+
+       document.getElementById("displaymail").innerHTML=
+       "Gmail:"+localStorage.getItem("gmail");
+
+       document.getElementById("displaypassword").innerHTML=
+       "password:"+localStorage.getItem("password");
+
+       document.getElementById("displayage").innerHTML=
+       "Age:"+localStorage.getItem("age");
+
+       
+       document.getElementById("displaydate").innerHTML=
+       "Date:"+localStorage.getItem("date");
+
+       document.getElementById("displayphone").innerHTML=
+       "Phone:"+localStorage.getItem("phone");
+
+
+       document.getElementById("displaygender").innerHTML=
+       "Gender:"+localStorage.getItem("gender");
+
+       let subjects = JSON.parse(localStorage.getItem("subjects")) || [];
+       document.getElementById("displaysubjects").innerHTML=
+       "Subjects:" + subjects.join(",");
+
+
+     function clearData() 
+     {
+     localStorage.clear();
+     }
+
+    setTimeout(clearData, 3000);
+
+          
+        </script>
+    </body>
+</html>
