@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arithmetic Functions</title>
+</head>
+<body>
+    <h1>Arithmetic Functions</h1>
+    <script>
+        function add(a, b) {
+            return a + b;
+        }
+
+        function subtract(a, b) {
+            return a - b;
+        }
+
+        function multiply(a, b) {
+            return a * b;
+        }
+
+        function divide(a, b) {
+            if (b === 0) {
+                console.error("Error: Division by zero is not allowed.");
+                return null;
+            }
+            return a / b;
+        }
+
+        // Example usage
+        var sum = add(589, 10);
+        var difference = subtract(78, 5);
+        var product = multiply(50, 10);
+        var quotient = divide(50, 5);
+
+        document.write("Sum: " + sum);
+        document.write("<br>");
+        document.write ("Difference: " + difference);
+        document.write("<br>");     
+        document.write("Product: " + product);
+        document.write("<br>");
+        document.write("Quotient: " + quotient);
+    </script>
+</body>
+</html>     
