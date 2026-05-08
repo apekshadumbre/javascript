@@ -1,0 +1,1983 @@
+
+
+give me a mail format for sql opening having 0-2 year of experience
+
+Here’s a professional, ready-to-send email format for a SQL / Database opening (0–2 years experience). You can copy-paste and customize the highlighted parts 👇
+
+Subject: Application for SQL Developer / Database Analyst – 0–2 Years Experience
+Dear [Hiring Manager’s Name],
+
+I hope you are doing well.
+
+I am writing to apply for the SQL Developer / SQL Analyst position at [Company Name]. I have [0–2] years of experience working with SQL and databases, along with a strong understanding of queries, joins, subqueries, views, and basic performance optimization.
+
+I have hands-on experience with [MySQL / SQL Server / PostgreSQL – mention what you know], writing complex SQL queries, data extraction, reporting, and supporting application-level data requirements. I am eager to enhance my skills further and contribute effectively to your team.
+
+I have attached my resume for your review. I would welcome the opportunity to discuss how my skills align with your requirements.
+
+Thank you for your time and consideration.
+
+Kind regards,
+[Your Full Name]
+[Your Phone Number]
+[Your Email Address]
+[LinkedIn / GitHub – optional]
+
+🔹 Short Version (for referrals / LinkedIn / HR mails)
+Subject: SQL Developer Opening – 0–2 Years Experience
+
+Hello [Name],
+
+I am interested in the SQL Developer / Database role at [Company Name]. I have [0–2] years of hands-on experience in SQL, including writing complex queries, joins, subqueries, and reports.
+
+Please find my resume attached for your review.
+Looking forward to your response.
+
+Regards,
+[Your Name]
+
+If you want, I can also:
+
+Customize this for freshers
+
+Tailor it for a specific company or job description
+
+Rewrite it for Pune-based openings
+
+Make it ATS-friendly
+
+Just tell me 👍
+
+
+how to start git
+
+Here’s a simple beginner-friendly guide to start Git from scratch 👇
+
+🔹 Step 1: Install Git
+Download and install Git from the official website:
+
+Git Official Website
+
+➡️ After installation, restart your system (recommended).
+
+🔹 Step 2: Check Git Installation
+Open Command Prompt / PowerShell / Terminal and run:
+
+git --version
+If Git is installed, you’ll see the version number.
+
+🔹 Step 3: Configure Git (First-Time Setup)
+Set your name and email (used in commits):
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+Check configuration:
+
+git config --list
+🔹 Step 4: Create or Go to a Project Folder
+cd path/to/your/project
+Example:
+
+cd Desktop/myproject
+🔹 Step 5: Initialize Git Repository
+git init
+✔️ This starts Git tracking in your project.
+
+🔹 Step 6: Check File Status
+git status
+Shows which files are tracked or untracked.
+
+🔹 Step 7: Add Files to Git
+Add all files:
+
+git add .
+Or a specific file:
+
+git add filename.ext
+🔹 Step 8: Commit Your Changes
+git commit -m "Initial commit"
+🔹 Step 9: Connect to Remote Repository (Optional)
+If you’re using GitHub / GitLab / Bitbucket:
+
+git remote add origin repository_url
+git branch -M main
+git push -u origin main
+🔹 Most Common Git Commands (Must-Know)
+Command	Purpose
+git init	Start Git
+git status	Check file status
+git add .	Stage files
+git commit -m "msg"	Save changes
+git log	View history
+git pull	Get latest code
+git push	Upload code
+✅ Tip for Freshers / Job Preparation
+Practice Git with:
+
+Creating small projects
+
+Making multiple commits
+
+Using branches (git branch, git checkout)
+
+If you want, I can also:
+
+Explain Git vs GitHub
+
+Show Git commands with real examples
+
+Give a Git cheat sheet
+
+Help you set up Git with VS Code
+
+Just tell me 😊
+
+
+
+Tspl@DESKTOP-C8556SE MINGW64 ~ (master)
+$ cd APeksha
+bash: cd: APeksha: No such file or directory
+
+Tspl@DESKTOP-C8556SE MINGW64 ~ (master)
+$ cd Apeksha
+bash: cd: Apeksha: No such file or directory
+
+Tspl@DESKTOP-C8556SE MINGW64 ~ (master)
+$
+
+This error is very common for beginners 👍
+It simply means that folder does not exist in your current location.
+
+You are currently here:
+
+~   (Home directory)
+✅ Step 1: Check what folders actually exist
+Run this command:
+
+ls
+👉 This will list all folders/files in your current directory.
+
+✅ Step 2: Understand the problem
+Possible reasons for the error:
+The folder name is different (case-sensitive in Git Bash)
+
+Apeksha ≠ apeksha ≠ APeksha
+
+The folder is not in Home directory
+
+The folder exists on Desktop / Documents / another drive
+
+✅ Step 3: If folder is on Desktop
+Try:
+
+cd Desktop
+ls
+If you see Apeksha, then:
+
+cd Apeksha
+✅ Step 4: If folder is on another drive (like E: or D:)
+Example: folder is in E:\Apeksha
+
+In Git Bash:
+
+cd /e/Apeksha
+For D drive:
+
+cd /d/Apeksha
+✅ Step 5: Use TAB for auto-complete (IMPORTANT)
+Type:
+
+cd A
+Then press TAB
+
+✔️ Git Bash will auto-complete the correct folder name
+✔️ Avoids spelling mistakes
+
+✅ Step 6: Confirm you are inside the folder
+pwd
+You should see something like:
+
+/e/Apeksha
+🚀 Next Git Step (once inside your project)
+git init
+git status
+🔑 Key Takeaways
+cd fails → folder not in current path
+
+Always use ls
+
+Use TAB key
+
+Windows drives = /c, /d, /e
+
+If you want, tell me:
+
+Where your project folder is (Desktop / E drive / Documents)
+I’ll give you the exact command to run ✔️
+
+
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+This message is normal 👍
+It means Git sees files, but they are not added (staged) yet.
+
+Let’s fix it step-by-step.
+
+🔍 What this message means
+nothing added to commit but untracked files present
+✔️ Git repository is initialized
+
+❌ Files are untracked
+
+❌ No files staged for commit
+
+✅ Step 1: See which files are untracked
+Run:
+
+git status
+You’ll see something like:
+
+Untracked files:
+  index.html
+  script.js
+✅ Step 2: Add files to Git
+Add ALL files (recommended for beginners):
+git add .
+OR add a specific file:
+git add index.html
+✅ Step 3: Check status again
+git status
+Now you should see:
+
+Changes to be committed:
+✅ Step 4: Commit your files
+git commit -m "Initial commit"
+✔️ Your files are now saved in Git history.
+
+🛑 Common beginner mistakes
+❌ Forgetting git add
+❌ Typing commit without staging
+❌ Files inside ignored folders (like node_modules)
+
+🧠 Quick mental model
+git init → start Git
+
+git add → tell Git what to track
+
+git commit → save snapshot
+
+🚀 Next steps (optional)
+Connect to GitHub
+
+Learn git log, git branch
+
+Practice small commits
+
+If you want, paste your git status output here and I’ll tell you exactly what to do next 😊
+
+
+now next how to connect to github and why 
+
+Great question 👍
+I’ll explain WHY we connect Git to GitHub first, then HOW to do it step-by-step (beginner-friendly).
+
+🤔 WHY connect Git to GitHub?
+Git (local) vs GitHub (online)
+Git → works on your computer (local version control)
+
+GitHub → stores your code online (cloud)
+
+Benefits of GitHub:
+🔒 Backup – Your code is safe even if your laptop crashes
+
+🌍 Access anywhere – Open your project from any system
+
+👩‍💻 Jobs & Portfolio – Recruiters check GitHub profiles
+
+🤝 Collaboration – Teams work on the same project
+
+🕒 History – Track who changed what & when
+
+👉 In short: GitHub = online home for your Git projects
+
+🔗 HOW to connect Git to GitHub (Step-by-Step)
+✅ Step 1: Create a GitHub account
+If you don’t have one, create it here:
+
+GitHub Official Website
+
+✅ Step 2: Create a new repository on GitHub
+Log in to GitHub
+
+Click + (top-right) → New repository
+
+Fill details:
+
+Repository name: Apeksha (or your project name)
+
+Public (recommended for learning)
+
+❌ Do NOT check README for now
+
+Click Create repository
+
+➡️ You’ll see a page with commands (keep it open).
+
+✅ Step 3: Copy repository URL
+Example:
+
+https://github.com/username/Apeksha.git
+✅ Step 4: Connect your local Git project to GitHub
+In Git Bash (inside your project folder):
+
+git remote add origin https://github.com/username/Apeksha.git
+Check connection:
+
+git remote -v
+✅ Step 5: Push your code to GitHub
+git branch -M main
+git push -u origin main
+🔐 First time:
+
+GitHub will ask for login
+
+Use GitHub username
+
+Use Personal Access Token (not password)
+
+🎉 DONE! What just happened?
+Your local code → uploaded to GitHub
+
+Repo now visible online
+
+Any future changes can be pushed
+
+🔄 Daily Git–GitHub workflow (must remember)
+git status
+git add .
+git commit -m "message"
+git push
+🧠 Beginner Tip (Very Important)
+Use small commits, like:
+
+"added login form"
+
+"fixed SQL query"
+
+"updated README"
+
+If you want, I can:
+
+Help you generate GitHub token
+
+Explain GitHub vs GitLab
+
+Show how recruiters use GitHub
+
+Help you upload your SQL / JS / Python projects
+
+Just tell me 😊
+
+
+Show me how recruiters use GitHub
+
+Here’s exactly how recruiters use GitHub 👇
+(This is based on real hiring practices, especially for freshers & 0–2 yrs experience)
+
+👀 1. Recruiters open your GitHub profile first
+They usually get your GitHub link from:
+
+Resume
+
+LinkedIn
+
+Application form
+
+They check:
+Is the profile active or empty?
+
+Do you have public repositories?
+
+Are you still learning or consistent?
+
+✅ Even simple projects are OK
+❌ Empty profile = red flag
+
+📂 2. They check your repositories (projects)
+Recruiters look for:
+
+Project names (clear & meaningful)
+
+Folder structure
+
+Realistic beginner projects
+
+Good examples:
+sql-practice
+
+javascript-basics
+
+customer-support-tools
+
+python-automation
+
+❌ Bad example:
+
+test123
+
+newrepo
+
+aaa
+
+🧾 3. They read your README.md (VERY IMPORTANT)
+This is like project explanation without interview.
+
+They expect:
+
+What the project does
+
+Technologies used
+
+How to run it
+
+What you learned
+
+📌 Even 5–6 lines README is enough for freshers.
+
+🧠 4. They scan your code (not line by line)
+Recruiters do NOT expect perfect code.
+
+They check:
+
+Can you write clean SQL queries / JS / Python?
+
+Are variable names readable?
+
+Basic logic understanding
+
+Comments (huge plus ⭐)
+
+Example they like:
+
+-- Fetch active customers
+SELECT name, email
+FROM customers
+WHERE status = 'active';
+🕒 5. They check commit history
+This shows:
+
+Learning consistency
+
+Real effort
+
+Not copy-paste in one day
+
+✅ Good:
+
+Multiple commits over days
+
+Clear commit messages
+
+❌ Bad:
+
+One single commit
+
+Message like final, done, update
+
+Good commit message:
+
+added customer table queries
+🔍 6. They judge potential, not perfection
+For 0–2 years experience, recruiters ask:
+
+“Is this candidate learning and trying?”
+
+They do NOT expect:
+
+Advanced frameworks
+
+Perfect architecture
+
+Industry-level code
+
+They DO expect:
+
+Basics clear
+
+Practice visible
+
+Honest effort
+
+🧑‍💼 7. How this helps you in interviews
+Recruiter might say:
+
+“I saw your SQL project on GitHub…”
+
+Then interview becomes easier:
+
+You explain your own code
+
+Confidence increases
+
+You stand out from others
+
+⭐ What YOU should upload (beginner-friendly)
+Since you are learning:
+
+SQL queries (joins, subqueries)
+
+JavaScript basics
+
+Small automation scripts
+
+Practice files + README
+
+Even 3 good repos are enough.
+
+✅ Simple checklist (use this)
+✔ GitHub profile photo
+✔ 2–4 public repositories
+✔ README in each repo
+✔ Multiple commits
+✔ Clean folder names
+
+If you want, I can:
+
+Review your GitHub profile (step-by-step checklist)
+
+Suggest projects for SQL / beginner roles
+
+Write a perfect README for you
+
+Tell you what to upload first
+
+Just tell me 👍
+
+
+Write a perfect README for me
+
+Perfect 👍
+Below is a recruiter-friendly, beginner-level “perfect” README you can use as-is for your GitHub project.
+(It is simple, honest, and exactly what recruiters expect for 0–2 years experience.)
+
+📊 SQL Practice Projects
+📌 Overview
+This repository contains my SQL practice work created to strengthen my understanding of database concepts and query writing.
+It includes hands-on examples covering basic to intermediate SQL queries that are commonly used in real-world applications.
+
+🛠️ Technologies Used
+SQL
+
+MySQL / SQL Server (mention the one you used)
+
+Git & GitHub
+
+📂 Topics Covered
+SELECT queries
+
+WHERE, ORDER BY, GROUP BY
+
+Joins (INNER, LEFT)
+
+Subqueries
+
+Aggregate functions
+
+Basic data filtering and reporting
+
+🧪 Sample Query
+-- Fetch active customers
+SELECT name, email
+FROM customers
+WHERE status = 'Active';
+🎯 Purpose of This Project
+To practice SQL queries in a structured way
+
+To improve problem-solving using databases
+
+To build a public portfolio for entry-level SQL / Data roles
+
+📈 What I Learned
+Writing clean and readable SQL queries
+
+Understanding how joins work between tables
+
+Using aggregate functions for reporting
+
+Managing code using Git and GitHub
+
+🚀 How to Use
+Clone the repository
+
+Open the .sql files in your SQL editor
+
+Run queries on sample tables
+
+Modify queries to practice further
+
+📬 Contact
+Apeksha Dumbre
+📧 Email: apekshadumbre162@gmail.com
+🔗 GitHub: (this profile)
+
+⭐ Note for Recruiters
+This repository is part of my learning journey and demonstrates my practical understanding of SQL fundamentals. I am actively improving my skills and open to feedback.
+
+✅ Why this README works for recruiters
+✔ Clear purpose
+✔ Honest skill level
+✔ No over-claiming
+✔ Easy to read
+✔ Shows learning mindset
+
+Next step (recommended)
+I can:
+
+Customize this README for JavaScript / Python
+
+Make a multi-project GitHub profile structure
+
+Suggest project names recruiters like
+
+Review your GitHub before applying
+
+Just say the word 😊
+
+
+do i commit message in github of previous file
+
+Short answer: YES ✅
+You do write a commit message for previous files, but locally first, then push to GitHub.
+
+Let me explain clearly 👇
+
+🧠 How commit messages actually work
+You do NOT write commit messages directly on GitHub (normally)
+
+You write commit messages in Git (local)
+
+Then you push → GitHub shows those messages
+
+📌 For your “previous files” situation
+Case 1: You already committed files earlier
+👉 You cannot change old commit messages easily (and you don’t need to as a fresher).
+
+GitHub already shows them.
+
+Case 2: Files were present but never committed ❗
+Then YES — you must commit them now with a message.
+
+Correct steps:
+git status
+git add .
+git commit -m "added initial SQL practice files"
+git push
+✍️ What is a GOOD commit message?
+Simple & professional (best for beginners):
+initial commit
+
+added sql practice queries
+
+updated README
+
+fixed join query
+
+❌ Avoid these:
+final
+
+done
+
+update
+
+123
+
+🔄 What recruiters see on GitHub
+They see:
+
+Commit messages
+
+Dates
+
+File changes
+
+They do not care if old commits are basic.
+They do care that:
+✔ You commit regularly
+✔ Messages make sense
+
+🧪 Example beginner workflow (daily)
+# make changes
+git add .
+git commit -m "added subquery examples"
+git push
+🔑 Rule to remember
+One logical change = one commit = one clear message
+
+If you want:
+I can suggest commit messages for your current files
+
+I can check if you should commit or not
+
+I can show how to edit last commit message (optional)
+
+Just tell me 😊
+
+
+how to remove files from github
+
+Here’s the correct and safe way to remove files from GitHub (using Git) 👇
+I’ll keep it simple and beginner-friendly.
+
+🧠 Important to know first
+You do NOT delete files directly on GitHub (recommended way).
+You delete them locally using Git, then push changes.
+
+✅ Case 1: Remove a file from GitHub and your local folder
+Step 1: Check file name
+git status
+Step 2: Remove the file
+git rm filename.ext
+Example:
+
+git rm test.sql
+Step 3: Commit the change
+git commit -m "removed test.sql file"
+Step 4: Push to GitHub
+git push
+✔️ File is removed from:
+
+Your system
+
+GitHub repository
+
+✅ Case 2: Remove file from GitHub but keep it on your computer
+Use --cached 👇
+
+git rm --cached filename.ext
+Example:
+
+git rm --cached config.env
+Then:
+
+git commit -m "removed config file from repository"
+git push
+✔️ File stays locally
+❌ File removed from GitHub
+
+✅ Case 3: Remove an entire folder
+git rm -r foldername
+git commit -m "removed unused folder"
+git push
+Example:
+
+git rm -r old_sql_files
+🛑 Common beginner mistakes
+❌ Deleting file manually without git rm
+❌ Forgetting to commit
+❌ Forgetting to push
+
+🔍 Check before pushing
+git status
+You should see:
+
+deleted: filename.ext
+🧠 Recruiter-safe tip
+If you accidentally uploaded:
+
+.env
+
+passwords
+
+test junk files
+
+👉 Remove them immediately and commit with a clear message.
+Recruiters understand mistakes — hiding them is worse.
+
+🆘 If you deleted the wrong file
+Tell me:
+
+File name
+
+Whether you already pushed or not
+
+I’ll tell you exactly how to recover it 👍
+
+
+but firstly i have to connect it to github 
+
+Yes ✅ FIRST you must connect your local Git project to GitHub.
+Only after that can you push, remove, or update files.
+
+Below is the exact correct order — follow it step by step 👇
+
+🔗 STEP 1: Create a GitHub repository (online)
+Open GitHub:
+GitHub Official Website
+
+Log in
+
+Click + → New repository
+
+Repository name: same as your project (example: sql-practice)
+
+Select Public
+
+❌ Do NOT check README / .gitignore
+
+Click Create repository
+
+➡️ Keep this page open (you’ll need the URL).
+
+💻 STEP 2: Go inside your project folder (local)
+In Git Bash:
+
+cd path/to/your/project
+Check:
+
+ls
+(make sure you see your project files)
+
+🧱 STEP 3: Initialize Git (if not already done)
+git init
+Check:
+
+git status
+🔗 STEP 4: Connect local Git to GitHub (IMPORTANT)
+Copy your repo URL from GitHub
+(example):
+
+https://github.com/your-username/sql-practice.git
+Run:
+
+git remote add origin https://github.com/your-username/sql-practice.git
+Verify connection:
+
+git remote -v
+✅ If you see origin, connection is successful.
+
+📦 STEP 5: Add and commit your files
+git add .
+git commit -m "initial commit"
+🚀 STEP 6: Push code to GitHub (first push)
+git branch -M main
+git push -u origin main
+🔐 Login note:
+
+Username → GitHub username
+
+Password → GitHub Personal Access Token (not normal password)
+
+🎉 DONE! What just happened?
+✔ Local Git → connected to GitHub
+✔ Your files → uploaded online
+✔ GitHub now tracks your project
+
+🗑️ NOW you can remove files (after connection)
+Example:
+
+git rm filename.ext
+git commit -m "removed unwanted file"
+git push
+🧠 Remember this order (VERY IMPORTANT)
+1️⃣ Create GitHub repo
+2️⃣ git remote add origin
+3️⃣ git add
+4️⃣ git commit
+5️⃣ git push
+
+If you want, tell me:
+
+Are you stuck at login/token?
+
+Do you see any error message?
+
+Want me to help you create GitHub token step-by-step?
+
+I’ll guide you exactly 👍
+
+
+one time i connect to github so after closing these again i have to connect it or only how to check is it connected or not
+
+Good question 👍
+You connect to GitHub only ONE TIME per project.
+After closing Git Bash or your laptop, you do NOT need to connect again.
+
+Let me explain clearly 👇
+
+✅ One-time connection rule
+git remote add origin ... → ONLY ONCE
+
+Closing terminal / restarting system ❌ does NOT break connection
+
+Connection info is saved inside the project
+
+🔍 How to check if your project is already connected
+Go inside your project folder and run:
+
+git remote -v
+If connected, you’ll see:
+origin  https://github.com/username/repo-name.git (fetch)
+origin  https://github.com/username/repo-name.git (push)
+✔️ Means GitHub is connected
+
+❌ If NOT connected
+You’ll see:
+
+fatal: No remotes configured
+Then connect once:
+
+git remote add origin https://github.com/username/repo-name.git
+🔄 Daily workflow AFTER connection
+Every time you work:
+
+git status
+git add .
+git commit -m "your message"
+git push
+❌ No need to re-add remote
+❌ No need to login again every time (token is cached)
+
+🔁 What if I want to connect to a DIFFERENT GitHub repo?
+Then you must change remote:
+
+git remote set-url origin https://github.com/username/new-repo.git
+🧠 Beginner memory trick
+Remote = phone number
+You save it once.
+You don’t re-save it every time you call 📞
+
+✅ Summary
+✔ Connect only once
+✔ Closing terminal doesn’t matter
+✔ Check with git remote -v
+✔ Push anytime
+
+If you want:
+
+I can check your output of git remote -v
+
+Help you fix “remote already exists” error
+
+Explain GitHub login/token issue
+
+Just paste the output here 😊
+
+
+Tspl@DESKTOP-C8556SE MINGW64 /c/Apeksha/javascript (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+Perfect 👍 This error is very common and easy to fix.
+
+❓ What the error means (simple words)
+Your local branch (master) exists,
+but Git doesn’t yet know which GitHub branch it should push to.
+
+👉 This happens only the first time you push a branch.
+
+✅ Fix it (ONE command)
+Just run exactly what Git suggested:
+
+git push --set-upstream origin master
+🔹 This will:
+
+Push your code to GitHub
+
+Link (master) → origin/master
+
+Fix the error permanently for this project
+
+🔁 After this (IMPORTANT)
+From next time onward, you only need:
+
+git push
+No more upstream errors ✅
+
+🧠 Why this happens
+Your repo was created locally
+
+GitHub repo exists but branch link not set
+
+First push = needs mapping
+
+🟢 Optional (Recommended): Rename master to main
+Most companies now use main.
+
+git branch -M main
+git push -u origin main
+After that:
+
+git push
+✅ How to confirm everything is correct
+git branch -vv
+You should see:
+
+* master abc123 [origin/master]
+or
+
+* main abc123 [origin/main]
+🎉 You’re doing everything RIGHT
+This means:
+✔ GitHub is connected
+✔ You committed correctly
+✔ Only upstream was missing
+
+If you want:
+
+I can help you switch to main cleanly
+
+Fix authentication/token issues
+
+Review your GitHub repo structure
+
+Just tell me 👍
+
+
+$ git push --set-upstream-origin master
+error: unknown option set-upstream-origin'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+
+You’re very close 👍
+This is just a small typo — Git is complaining because the option name is wrong.
+
+❌ What you typed (incorrect)
+git push --set-upstream-origin master
+Git reads this as one option, which doesn’t exist.
+
+✅ Correct command (use this exactly)
+git push --set-upstream origin master
+👉 Notice:
+
+There is a space between --set-upstream and origin
+
+origin = remote name
+
+master = branch name
+
+🔁 Alternative short form (also correct)
+git push -u origin master
+🧪 What will happen now
+Your code will be pushed to GitHub
+
+master branch will be linked to origin/master
+
+Future pushes will work with just:
+
+git push
+🔍 If you get another error (just in case)
+Check remote exists:
+git remote -v
+If nothing shows, add remote:
+
+git remote add origin https://github.com/USERNAME/REPO.git
+🎯 Key learning (important)
+Git errors are very specific.
+Always copy the command exactly as shown.
+
+Run this now:
+
+git push --set-upstream origin master
+Then paste the next output here — I’ll guide you if anything else comes up 😊
+
+
+
+Tspl@DESKTOP-C8556SE MINGW64 /c/Apeksha/javascript (master)
+$ git push --set-upstream origin master
+fatal: unable to access 'https://https://github.com/apekshadumbre/javascript.git/': Could not resolve host: https
+
+Perfect — this error tells us exactly what’s wrong 👍
+You are 99% done. This is just a remote URL mistake.
+
+❌ What the error means
+fatal: unable to access 'https://https://github.com/apekshadumbre/javascript.git/'
+Could not resolve host: https
+👉 Your remote URL has https:// twice
+Git is trying to go to:
+https://https://github.com/... ❌ (invalid)
+
+✅ Step 1: Check your current remote URL
+Run:
+
+git remote -v
+You will see something like:
+
+origin  https://https://github.com/apekshadumbre/javascript.git (fetch)
+origin  https://https://github.com/apekshadumbre/javascript.git (push)
+✅ Step 2: Fix the remote URL (IMPORTANT)
+Run this exact command (only one https://):
+
+git remote set-url origin https://github.com/apekshadumbre/javascript.git
+✅ Step 3: Verify the fix
+git remote -v
+You should now see:
+
+origin  https://github.com/apekshadumbre/javascript.git (fetch)
+origin  https://github.com/apekshadumbre/javascript.git (push)
+✔️ This means the connection is now correct.
+
+✅ Step 4: Push again (final step 🎉)
+git push --set-upstream origin master
+OR short version:
+
+git push -u origin master
+🔐 Login note (important)
+If Git asks for credentials:
+
+Username → your GitHub username
+
+Password → GitHub Personal Access Token (not your GitHub password)
+
+If you haven’t created a token yet, tell me — I’ll guide you step by step.
+
+🧠 Key lesson (remember this forever)
+Remote URL must be exact
+
+Only one https://
+
+You connect remote once, then just push
+
+✅ You are doing GREAT
+These errors mean:
+✔ You understand Git basics
+✔ You are actually using Git (not just reading)
+
+Run the commands above and paste the next output here — I’ll help till it works 💪
+
+
+i am appreciate that u know i am ctually understanding these not 
+
+Thank you so much for saying that 😊
+And yes — I can see clearly that you are actually understanding, not just typing commands blindly 👍
+
+Let me tell you honestly (as a mentor, not just a tool):
+
+🌱 What I’m noticing about you
+You read the error messages
+
+You ask the right questions (“why”, “do I need to connect again?”)
+
+You try the command yourself and share the output
+
+You’re not afraid of mistakes
+
+👉 This is exactly how real developers learn.
+
+Many people just copy-paste without understanding.
+You are not doing that — and that matters a lot.
+
+🧠 Why Git feels hard at first (and why that’s OK)
+Git is confusing because:
+
+It talks in technical language
+
+Small typos cause big-looking errors
+
+Concepts like remote, upstream, branch are new
+
+Feeling stuck here does NOT mean you’re bad.
+It means you’re at the learning edge.
+
+🚀 Where you are right now
+You can already:
+✔ Navigate folders
+✔ Initialize Git
+✔ Add & commit files
+✔ Understand what “remote” means
+✔ Debug errors instead of panicking
+
+This puts you ahead of many beginners.
+
+💡 One mindset tip (very important)
+Don’t aim to be “fast”.
+Aim to be clear.
+
+Speed comes automatically later.
+
+🤝 I’m here with you
+You can:
+
+Ask “silly” questions (they’re not silly)
+
+Paste errors without hesitation
+
+Ask for why, not just how
+
+I’ll explain until it clicks for you.
+
+If you want, next we can:
+
+Do a clean full Git workflow once (from start to push)
+
+Explain branches in simple language
+
+Improve your GitHub so recruiters like it
+
+Practice Git daily in 10 minutes
+
+Just tell me what you want next 🌟
+
+
+Do a clean full Git workflow once from start to push
+
+Perfect 👍
+Let’s do ONE clean, full Git workflow — from nothing → GitHub push.
+Follow this exact order and you’ll never be confused again.
+
+I’ll assume:
+
+Your project folder exists
+
+Git is installed
+
+GitHub account exists
+
+🔁 CLEAN GIT WORKFLOW (START → PUSH)
+📁 STEP 1: Go to your project folder
+cd /c/Apeksha/javascript
+Check files:
+
+ls
+🧱 STEP 2: Initialize Git (one time per project)
+git init
+Check:
+
+git status
+🧾 STEP 3: Add files to staging
+git add .
+Check:
+
+git status
+You should see:
+
+Changes to be committed
+
+💬 STEP 4: Commit your changes
+git commit -m "initial commit"
+✔️ This saves a snapshot locally
+
+🌐 STEP 5: Create repository on GitHub (online)
+Open GitHub
+
+Click + → New repository
+
+Repository name: javascript
+
+Public
+
+❌ Do NOT select README
+
+Click Create repository
+
+Copy the HTTPS URL:
+
+https://github.com/USERNAME/javascript.git
+🔗 STEP 6: Connect local Git to GitHub (ONE TIME)
+git remote add origin https://github.com/USERNAME/javascript.git
+Verify:
+
+git remote -v
+🚀 STEP 7: Push to GitHub (first time)
+You are on master, so:
+
+git push -u origin master
+🔐 If asked:
+
+Username → GitHub username
+
+Password → GitHub Personal Access Token
+
+🎉 DONE — what you achieved
+✔ Local Git repo created
+✔ Files committed
+✔ GitHub connected
+✔ Code pushed online
+
+🔄 DAILY WORKFLOW (after this)
+Every time you change code:
+
+git status
+git add .
+git commit -m "describe your change"
+git push
+That’s it. No reconnecting.
+
+🧠 MEMORY TRICK
+Init once
+Remote once
+Commit often
+Push when ready
+
+🧪 COMMON CHECK COMMANDS
+git status      # what changed?
+git log --oneline
+git remote -v
+git branch
+⭐ You’re officially using Git correctly
+Not reading.
+Not memorizing.
+Actually doing.
+
+Next we can:
+
+Practice this workflow 2–3 times (to make it natural)
+
+Learn branches (in very simple language)
+
+Clean your GitHub for recruiters
+
+Fix mistakes safely
+
+Just tell me 💪
+
+
+what is the push
+
+Great question — this is the right time to ask it 👍
+I’ll explain git push in very simple words, no jargon.
+
+🚀 What is git push?
+git push means:
+👉 Send my saved work (commits) from my computer to GitHub.
+
+That’s it.
+
+🧠 Simple picture in your head
+Think like this:
+
+Your computer = notebook 📒
+
+Git commit = you saved a page in your notebook
+
+GitHub = online locker ☁️
+
+git push = putting your saved pages into the locker
+
+If you don’t push:
+
+Code is only on your laptop
+
+GitHub doesn’t know about it
+
+🔄 Full flow (important)
+1️⃣ You write or change code
+2️⃣ git add → select files
+3️⃣ git commit → save locally
+4️⃣ git push → upload to GitHub
+
+Without step 4, GitHub stays unchanged.
+
+📦 What exactly gets pushed?
+Only commits get pushed.
+
+❌ Files you changed but didn’t commit → NOT pushed
+❌ Files you added but didn’t commit → NOT pushed
+
+✔ Committed changes → pushed
+
+🧪 Example
+git add .
+git commit -m "added login page"
+git push
+Meaning:
+
+“I finished something”
+
+“Save it”
+
+“Show it on GitHub”
+
+🤔 Why recruiters care about push
+Because they can see:
+
+Your projects
+
+Your commit history
+
+Your progress over time
+
+If you never push → your GitHub looks empty ❌
+
+🛑 Common beginner confusion
+❓ “I committed. Why is GitHub not updated?”
+
+Because you did not push.
+
+Commit ≠ Push
+They are different.
+
+🧠 One-line definition (remember this)
+Commit saves locally.
+Push sends to GitHub.
+
+If you want, next I can explain:
+
+pull (opposite of push)
+
+What happens if two people push
+
+Push vs force push (important warning)
+
+How GitHub stores your code
+
+Just tell me 😊
+
+
+Uploaded image
+i want to set screen in a proper way since i am unable  to see maximize and close option
+
+Generated image: MySQL Workbench interface snapshot
+
+
+Edit
+
+
+Edited image
+unable to see this
+
+Got it 👍 You’re not able to see the Minimize / Maximize / Close buttons in MySQL Workbench. This is a common Windows display/layout issue. Follow these simple steps in order.
+
+✅ Quick Fixes (Try in this order)
+1️⃣ Use keyboard to restore the window (most effective)
+Click once anywhere inside MySQL Workbench
+
+Press:
+
+Alt + Space
+A small menu will appear (even if you can’t see it)
+
+Press:
+
+R
+👉 This means Restore
+
+Now resize the window normally
+
+2️⃣ Force maximize using keyboard
+Click inside MySQL Workbench
+
+Press:
+
+Alt + Space
+Press:
+
+X
+👉 This means Maximize
+
+3️⃣ Move the hidden window back
+If the title bar is outside the screen:
+
+Click inside MySQL Workbench
+
+Press:
+
+Alt + Space
+Press:
+
+M
+Use arrow keys (⬅️➡️⬆️⬇️) to bring the window back
+
+Press Enter
+
+🖥️ Windows Display Fix (Very Important)
+Sometimes this happens due to display scaling.
+
+Right-click on Desktop
+
+Click Display settings
+
+Set:
+
+Scale → 100%
+
+Resolution → Recommended
+
+Close MySQL Workbench
+
+Open it again
+
+🔄 Reset MySQL Workbench layout (Safe)
+If nothing works:
+
+Close MySQL Workbench
+
+Press:
+
+Windows + R
+Paste:
+
+%AppData%\MySQL\Workbench
+Rename the folder to:
+
+Workbench_old
+Reopen MySQL Workbench
+👉 Layout will reset and buttons will reappear
+
+❓Still not visible?
+Tell me:
+
+Are you using laptop or external monitor?
+
+Did this happen after changing resolution or connecting another screen?
+
+I’ll guide you step-by-step until it’s fixed 💪
+
+
+13:14:14	Could not connect, server may not be running.	Unable to connect to 127.0.0.1:3306	
+
+This error means MySQL Server is NOT running, so MySQL Workbench cannot connect.
+
+Unable to connect to 127.0.0.1:3306 = nothing is listening on port 3306
+
+Let’s fix it step-by-step (Windows, very common).
+
+✅ Step 1: Check if MySQL Server is installed
+Press Windows + R → type:
+
+services.msc
+Press Enter
+
+Look for one of these:
+
+MySQL
+
+MySQL80
+
+MySQL Server 8.0
+
+🔹 What do you see?
+✔️ If you SEE MySQL service
+Right-click on it
+
+Click Start
+
+Status should become Running
+
+Then open MySQL Workbench and try connecting again.
+
+❌ If you DO NOT see MySQL service
+👉 That means MySQL Server is not installed
+(MySQL Workbench alone is NOT enough)
+
+You must install MySQL Server.
+
+✅ Step 2: Start MySQL Server from Command Line (alternative)
+Open Command Prompt as Administrator and run:
+
+net start mysql
+or
+
+net start mysql80
+If it starts → go back to Workbench and connect.
+
+❌ Common error & meaning
+Error	Meaning
+server may not be running	MySQL service stopped
+can't connect to 127.0.0.1	Server not installed or crashed
+access denied	Password issue (server is running)
+👉 Your case = server not running
+
+✅ Step 3: If MySQL Server is NOT installed (Fix)
+Install MySQL Installer (Server + Workbench) from the official site:
+
+MySQL Official Download
+
+During installation:
+Choose Developer Default
+
+Set root password (IMPORTANT)
+
+Keep port 3306
+
+Finish installation
+
+After install → restart system → open Workbench → connect.
+
+✅ Step 4: Correct Connection Settings in Workbench
+In MySQL Workbench:
+
+Hostname: 127.0.0.1
+
+Port: 3306
+
+Username: root
+
+Password: (the one you set)
+
+🧠 Simple explanation (so you really understand)
+MySQL Server = engine (does the real work)
+
+MySQL Workbench = tool (just connects to engine)
+
+You opened the tool, but the engine was OFF
+
+✅ Tell me ONE thing:
+Do you see MySQL / MySQL80 in services.msc — YES or NO?
+
+I’ll guide you exactly based on that 👍
+
+
+Uploaded image
+among which i have to select
+
+Good question 👍 — you’re at the right screen.
+
+✅ Select: Server only
+👉 Why this is the correct choice for you
+
+You already have MySQL Workbench
+
+Your error was “server may not be running”
+
+This option installs MySQL Server, which is exactly what’s missing
+
+What each option means (simple words)
+Server only ✅ (SELECT THIS)
+👉 Installs the MySQL engine that runs on port 3306
+
+Client only ❌
+👉 Tools only (no server) → same problem again
+
+Full ❌
+👉 Too heavy, not needed for learning
+
+Custom ❌
+👉 Advanced users only
+
+Next steps (very important)
+After clicking Next:
+
+Keep default settings
+
+When asked for Port → keep 3306
+
+Set a root password
+⚠️ REMEMBER THIS PASSWORD
+
+Finish installation
+
+Restart your system (recommended)
+
+After installation
+Open MySQL Workbench → connect using:
+
+Host: 127.0.0.1
+
+Port: 3306
+
+User: root
+
+Password: (the one you set)
+
+You should NOT see the connection error anymore ✅
+
+🧠 Quick check for understanding
+You earlier had:
+
+🚫 Workbench (UI)
+
+🚫 No Server (engine)
+
+Now with Server only, you’ll have:
+
+✅ Engine running
+
+✅ Workbench connects
+
+When you reach the password screen, tell me — I’ll guide you there step-by-step 😊
+
+
+no i have uninstall previous mysql workbench
+
+Perfect 👍 thanks for telling me — that changes the best choice.
+
+Since you uninstalled MySQL Workbench, here’s exactly what you should do now 👇
+
+✅ Select: Full (RECOMMENDED for you)
+👉 Why Full is the best option now
+Because Full installs:
+
+✅ MySQL Server (required to run database)
+
+✅ MySQL Workbench (GUI to write SQL)
+
+✅ MySQL Shell & connectors
+
+This avoids missing-component errors and is ideal for learning + practice.
+
+❌ Why not the others?
+Server only → No Workbench (you’ll struggle to write SQL)
+
+Client only → No server (same error again)
+
+Custom → Advanced, unnecessary confusion
+
+🪜 Step-by-step after selecting Full
+Click Next
+
+Accept license → Next
+
+Let installer download & install everything
+
+Configuration screen:
+
+Port: 3306 (keep default)
+
+Auth: default
+
+Set root password
+⚠️ Write it down
+
+Finish installation
+
+Restart your system
+
+🔍 After restart (important check)
+Open MySQL Workbench
+
+Click the Local instance (or create new)
+
+Enter root password
+
+You should see Schemas on the left
+
+✔️ No more
+Unable to connect to 127.0.0.1:3306
+
+🧠 Simple understanding
+MySQL Server = engine
+
+MySQL Workbench = screen/keyboard
+
+You removed both → Full puts everything back cleanly
+
+When you reach the root password screen or see any error, send a screenshot or message — I’m with you step by step 😊
+
+
+how to check whether successfully install or not
+
+Great question 👍
+Let’s verify step-by-step that MySQL is installed correctly. Do these checks in order.
+
+✅ CHECK 1: MySQL Server service (MOST IMPORTANT)
+Steps (Windows):
+Press Windows + R
+
+Type services.msc → Enter
+
+Look for MySQL or MySQL80
+
+Result:
+✅ Status = Running → Server installed correctly
+
+❌ Not found / Stopped → Installation issue
+
+👉 If it’s Stopped, right-click → Start
+
+✅ CHECK 2: Open MySQL Workbench
+Open MySQL Workbench
+
+On home screen, check MySQL Connections
+
+Result:
+✅ You see Local instance MySQL → Good
+
+❌ Nothing visible → Click + and create one
+
+Connection details:
+
+Host: 127.0.0.1
+Port: 3306
+Username: root
+✅ CHECK 3: Test connection
+Click the connection
+
+Enter root password
+
+Result:
+✅ SQL Editor opens → SUCCESS 🎉
+
+❌ Error → Tell me exact message
+
+✅ CHECK 4: Run a test SQL query
+In MySQL Workbench:
+
+SELECT VERSION();
+Result:
+✅ Shows version number (like 8.0.xx)
+
+❌ Error → Not properly installed
+
+✅ CHECK 5: Command line test (optional but strong proof)
+Press Windows + R
+
+Type cmd → Enter
+
+Run:
+
+mysql --version
+Result:
+✅ Version shown → Installed correctly
+
+❌ 'mysql' is not recognized → PATH issue (fixable)
+
+🟢 FINAL CONFIRMATION (ALL 3 TRUE)
+MySQL service is Running
+
+Workbench connects without error
+
+SQL query works
+
+➡️ Installation successful ✅
+
+Tell me:
+Which check passed
+
+Which failed
+
+I’ll fix the failed one immediately 😊
+
+
+i want to save all this chat history in my chatgpt how i can do this
+
+That’s a very genuine question 👍
+I’ll explain it clearly and honestly, step-by-step.
+
+❗ Important truth first
+You cannot manually “save” or “pin” a specific chat inside ChatGPT forever.
+ChatGPT automatically keeps conversations in your Chat History, but you cannot control storage or export from inside ChatGPT (unless you download data).
+
+So your options are outside ChatGPT.
+
+✅ BEST & SIMPLE METHODS (Recommended)
+🔹 Option 1: Save as a document (MOST RELIABLE)
+Select text in the chat
+
+Use Ctrl + A (select all)
+
+Ctrl + C (copy)
+
+Open:
+
+Notepad / Word / Google Docs
+
+Paste (Ctrl + V)
+
+Save as:
+
+Git_and_MySQL_Learning_Notes.docx or .pdf
+
+👉 This is the safest way. Nothing gets lost.
+
+🔹 Option 2: Screenshot (for reference)
+Use Snipping Tool or Windows + Shift + S
+
+Save screenshots in a folder
+
+❌ Not searchable, but good for visuals
+
+🔹 Option 3: Use ChatGPT History (default)
+ChatGPT automatically saves chats
+
+Left sidebar → click the conversation anytime
+
+⚠️ But:
+
+Chats can disappear if history is turned off
+
+Not guaranteed forever
+
+🟡 Option 4: Download ChatGPT data (Advanced)
+If you want everything:
+
+Go to ChatGPT → Settings
+
+Data Controls → Export data
+
+You’ll get an email with a ZIP file
+
+✔️ Includes all conversations
+❌ Not organized topic-wise
+
+🔐 Can I remember this chat for you?
+I cannot permanently store full chat history across sessions unless:
+
+You explicitly ask me to remember something specific (like preferences or goals)
+
+Example:
+
+“Remember that I am learning Git & MySQL step by step.”
+
+If you want, I can remember that (not full chat text).
+
+✅ MY STRONG RECOMMENDATION
+For your learning:
+
+Copy this chat
+
+Paste into one document
+
+Add headings like:
+
+Git workflow
+
+GitHub errors
+
+MySQL installation
+
+This becomes your personal notes 📘
+
+If you want, I can:
+
+🔹 Convert this chat into clean notes
+
+🔹 Make a PDF study guide
+
+🔹 Organize Git + MySQL steps neatly
+
+Just tell me what you want 😊
+
+
