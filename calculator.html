@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        
+        <div class="calculator_context">
+            <h2>Calculator</h2>
+            
+            <input type="text" id="result" disabled><br><br>
+
+            <!--
+            <button onclick="addvalue('/')">÷</button>
+            <button onclick="addvalue('*')">X</button>
+            <button onclick="deletevalue('⌫')">⌫</button><br
+
+        -->
+             <button onclick="addvalue('7')">7</button>  
+             <button onclick="addvalue('8')">8</button>
+             <button onclick="addvalue('9')">9</button>
+             <button onclick="addvalue('-')">-</button><br>
+
+             <button onclick="addvalue('4')">4</button>
+             <button onclick="addvalue('5')">5</button>
+             <button onclick="addvalue('6')">6</button>
+             <button onclick="addvalue('+')">+</button><br>
+
+             <button onclick="addvalue('1')">1</button>
+             <button onclick="addvalue('2')">2</button>
+             <button onclick="addvalue('3')">3</button>
+             <button onclick="addvalue('*')">*</button><br>
+
+             <button onclick="addvalue('0')" class="zero">0</button>
+             <button onclick="addvalue('/')">/</button>
+             <button onclick="clearcalculation()">C</button>
+             <button onclick="calculate()">=</button>
+             </div>
+
+             <script>
+
+                function addvalue(value){
+                    document.getElementById("result").value += value;
+                }   
+
+                function deletevalue(){
+                    var currentValue = document.getElementById("result").value;
+                    document.getElementById("result").value = currentValue.slice(0, -1);
+                }
+                function calculate(){
+                    var expression = document.getElementById("result").value;
+                    try{
+                        var result = eval(expression);
+                        document.getElementById("result").value = result;  
+                    }catch(error){
+                        document.getElementById("result").value = "Error";  
+                    }
+                }  
+                
+                function clearcalculation(){
+                    document.getElementById("result").value = "";
+                }   
+                </script>
+
+
+</html>

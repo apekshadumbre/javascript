@@ -1,0 +1,45 @@
+<html>
+    <head>
+        </head>
+        <body>
+            Enter the first value:
+            <input type="text" placeholder="value1" id="value1"><br><br>
+            Enter the second value:
+            <input type="text" placeholder="value2" id="value2"><br><br>
+
+            Enter the third value:
+            <input type="text" placeholder="value3" id="value3"><br><br>
+
+
+            <button onclick="findMax()">Find Max</button>
+
+            <script>
+               function findMax(a,b,c)
+               {
+
+                var a=parseInt(document.getElementById("value1").value);
+                var b=parseInt(document.getElementById("value2").value);
+                var c=parseInt(document.getElementById("value3").value);
+
+
+                if(a>b && a>c)
+                {
+                    alert("The maximum number is:"+a);
+                }
+                else if(b>a && b>c)
+                 {
+                    alert("The maximum number is:"+b);
+                    }
+                 else if(c>a && c>b)
+                {
+                    alert("The maximum number is :"+c)
+                } 
+                else
+                {
+                    alert("All numbers are equal"); 
+                        
+            }  
+        }       
+                </script>      
+            </body>
+</html>
