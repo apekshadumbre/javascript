@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            .square {
+                width: 20px;
+                height: 20px;
+                border: 2px solid #000;
+                margin: 10px 0;
+            }
+            .circle {
+                width: 10px;
+                height: 10px;
+                background-color: #000;
+                border-radius: 50%;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>My To Do list</h3>
+        <input type="text" id="" placeholder="Enter a new task">
+        <div class="square">
+            <div class="circle"></div>
+        </div>
+    </body>
+</html>
